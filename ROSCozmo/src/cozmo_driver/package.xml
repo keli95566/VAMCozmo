@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<package>
+  <name>cozmo_driver</name>
+  <version>0.2.0</version>
+  <description>The cozmo_driver package</description>
+
+  <maintainer email="t.ogura@gmail.com">Takashi Ogura</maintainer>
+  <maintainer email="semael23@gmail.com">Peter Rudolph</maintainer>
+
+  <license>Apache License 2.0</license>
+
+  <!-- Url tags are optional, but mutiple are allowed, one per tag -->
+  <!-- Optional attribute type can be: website, bugtracker, or repository -->
+  <!-- Example: -->
+  <!-- <url type="website">http://wiki.ros.org/cozmo_driver</url> -->
+
+  <author email="t.ogura@gmail.com">Takashi Ogura</author>
+  <author email="semael23@gmail.com">Peter Rudolph</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>camera_info_manager</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>joy</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>teleop_twist_joy</build_depend>
+  <build_depend>tf2_msgs</build_depend>
+  <build_depend>twist_mux</build_depend>
+
+  <run_depend>camera_info_manager</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>joy</run_depend>
+  <run_depend>nav_msgs</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>teleop_twist_joy</run_depend>
+  <run_depend>tf2_msgs</run_depend>
+  <run_depend>twist_mux</run_depend>
+  <run_depend>rviz_imu_plugin</run_depend>
+
+  <export>
+  </export>
+</package>
