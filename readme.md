@@ -2,7 +2,9 @@
 
 This project explore to operate the [Anki Cozmo](https://www.digitaldreamlabs.com/pages/cozmo) robot in mixed reality (MR) and virtual reality (VR) using OpenXR supported head mounted display (HMD) such as Microsoft Hololens and Oculus Quest 2. 
 
-This document demonstrates some examples and record the future development steps. The code will be released soon..
+This document demonstrates some examples and record the future development steps. 
+
+[! Please note that this repository is under continuous development and improvement. Only the functionalities in the ```CozmoMRTest``` scene is working. But please feel free to explore other work in progress code base as well!]
 
 ## Table of Contents
 ------------------
@@ -91,3 +93,5 @@ The communcication between ROS and HMD is built on top of the [Unity ROS TCP Con
      alt="cozmo lift"
      style="float: center; margin-right: 10px; height:300px" />
 
+----
+Learn more about this project from our paper at the 5th International Workshop on Virtual, Augmented, and Mixed Reality for HRI ( [VAM-HRI 2022](https://vam-hri.github.io/)): https://openreview.net/pdf?id=HYIes841hJc
