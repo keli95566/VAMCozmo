@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/MRCozmo/Example/CozmoMRTest.unity
+    guid: c61a5dc70ec1fb34ea96d891dd9d3706
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9dd3a6ea2a913664bb143670a8095f63,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 34279728a1971f24cb19f7105cd8f519,
+      type: 2}

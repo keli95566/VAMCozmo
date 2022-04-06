@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb41c8335e2ca96449f3991db5fa5702, type: 3}
+  m_Name: Robotenu
+  m_EditorClassIdentifier: 
+  quadIcons:
+  - {fileID: 2800000, guid: 94668b7bee992e543b7102263492ff49, type: 3}
+  - {fileID: 2800000, guid: 78f9e7097600a4f4db4ac1634e8a9492, type: 3}
+  - {fileID: 2800000, guid: f4850e7189636ec47b39e30b5fcdb964, type: 3}
+  - {fileID: 2800000, guid: 183f2d5c13434fd4db9511c6164814e6, type: 3}
+  - {fileID: 2800000, guid: 1e318fa03637cd747be6f4b6f744a425, type: 3}
+  - {fileID: 2800000, guid: 3e083141debf0a54bbdfd9d0d41b4af9, type: 3}
+  - {fileID: 2800000, guid: 6afb62844aac8ab449041b90248d2295, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  spriteIcons: []
+  charIconFont: {fileID: 0}
+  charIcons:
+  - Name: AppBarAdjust
+    Character: 60370
+  - Name: AppBarClose
+    Character: 59153
+  - Name: AppBarDone
+    Character: 59643
+  - Name: AppBarHide
+    Character: 59244
+  - Name: AppBarShow
+    Character: 59154
+  - Name: AppBarHome
+    Character: 60175
