@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c444d6f85828f1b4f9b89c7c387f9ddd, type: 3}
   m_Name: msgbrowser_settings
   m_EditorClassIdentifier: 
-  inputPath: C:/Users/keli9/Code/DESY/MRCozmo/MRCozmoQuest2/Assets/MRCozmo/ROSScripts/MRCozmo/msg
-  relativeOutPath: MRCozmo\ROSScripts\MRCozmo\msg
+  inputPath: C:/Users/keli9/Code/OpenSourceContributions/VAMCozmo/ROSCozmo/src/cozmo_demo_msgs/msg
+  relativeOutPath: RosMessages

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using RosMessageTypes.Geometry;
-using RosMessageTypes.MRCozmo;
+using RosMessageTypes.CozmoDemo;
 namespace MRCozmo
 {
     public class CozmoPathFollow : MonoBehaviour

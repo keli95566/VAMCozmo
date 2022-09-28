@@ -4,7 +4,7 @@ using UnityEngine;
 using Unity.Robotics;
 using Unity.Robotics.ROSTCPConnector;
 using RosMessageTypes.Geometry;
-using RosMessageTypes.MRCozmo;
+using RosMessageTypes.CozmoDemo;
 using System.Linq;
 
 public class CozmoWheelControlublisher : MonoBehaviour

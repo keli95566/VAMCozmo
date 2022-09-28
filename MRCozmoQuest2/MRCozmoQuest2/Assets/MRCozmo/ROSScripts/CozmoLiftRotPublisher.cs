@@ -1,6 +1,6 @@
 using UnityEngine;
 using Unity.Robotics.ROSTCPConnector;
-using RosMessageTypes.MRCozmo;
+using RosMessageTypes.CozmoDemo;
 
 public class CozmoLiftRotPublisher : MonoBehaviour
 {
