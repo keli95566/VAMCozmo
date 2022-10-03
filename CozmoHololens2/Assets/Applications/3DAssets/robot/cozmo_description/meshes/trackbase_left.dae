@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.79.0</authoring_tool>
+    </contributor>
+    <created>2018-12-10T11:53:20</created>
+    <modified>2018-12-10T11:53:20</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="blinn4SG-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.7 0.7 0.7 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">6</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>1</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 0</color>
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="blinn4SG-material" name="blinn4SG">
+      <instance_effect url="#blinn4SG-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="trackBase_L_geo-mesh" name="trackBase_L_geo">
+      <mesh>
+        <source id="trackBase_L_geo-mesh-positions">
+          <float_array id="trackBase_L_geo-mesh-positions-array" count="60">-0.615337 2.784926 0.346995 -0.942665 2.784926 0.779819 -0.942665 1.617523 0.779819 -0.615337 1.617523 0.346995 -3.706954 2.784926 1.940161 -3.706954 1.617523 1.940161 -0.891418 1.617523 2.38767 -0.891418 2.784926 2.38767 -3.447443 2.784926 0.65983 -3.749398 2.784926 0.346995 -3.749398 1.617523 0.346995 -3.447443 1.617523 0.65983 -1.162735 2.784926 1.334254 -3.380559 2.784926 1.222088 -3.516576 2.784926 1.678854 -1.148753 2.784926 1.867356 -3.380559 1.617523 1.222088 -3.516576 1.617523 1.678854 -1.148753 1.617523 1.867356 -1.286063 1.617523 1.334254</float_array>
+          <technique_common>
+            <accessor source="#trackBase_L_geo-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="trackBase_L_geo-mesh-normals">
+          <float_array id="trackBase_L_geo-mesh-normals-array" count="129">0.8744328 -0.001644074 0.4851439 0.7975966 0 0.6031913 0.7975965 0 0.6031914 -0.1569724 0 0.987603 -0.7195078 0 0.6944844 -0.9218176 0 0.3876243 -0.9217286 0 0.3878355 0 0 -1 0 -1 1.83119e-7 0 -1 -9.03837e-7 0 -1 0 0 1 1.865e-6 0 1 -7.43659e-7 0 1 -1.05456e-6 0 1 -3.67528e-7 0 1 -2.77123e-7 0 1 -1.25443e-7 -0.9977195 -6.20353e-6 -0.06749707 -0.9104864 0 -0.4135392 -0.9105305 0 -0.4134422 0 -1 -8.6168e-7 0 -1 4.69401e-7 0 -1 1.74964e-7 0.9799563 -0.02960687 0.1970004 0.9450425 -0.03673505 -0.3248774 0.9802377 -0.1032359 0.1687498 0 1 1.57469e-6 -0.997717 0 -0.06753385 0 -1 -6.65812e-7 0.8422238 -0.03318947 0.5381057 0 1 2.14935e-6 0 1 -7.06528e-7 -0.8082406 0 -0.5888524 -0.808241 0 -0.588852 0 -1 -1.1877e-6 0 -1 1.32474e-7 0.8963633 0 -0.4433203 0.9692341 9.33981e-4 -0.2461392 -0.1569721 0 0.9876031 -0.7195079 0 0.6944843 0 1 1.32734e-6 0 -1 0 0.8963634 0 -0.4433202</float_array>
+          <technique_common>
+            <accessor source="#trackBase_L_geo-mesh-normals-array" count="43" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="trackBase_L_geo-mesh-map-0">
+          <float_array id="trackBase_L_geo-mesh-map-0-array" count="216">0.375 0.067294 0.625 0 0.375 0 0.625 0.5 0.375 0.25 0.375 0.5 0.375 0.75 0.625 0.695127 0.375 0.695127 0.625 0.75 0.375 1 0.625 1 0.625 0.067294 0.875 0 0.625 0 0.125 0 0.375 0.067294 0.375 0 0.125 0.153497 0.375 0.202335 0.375 0.153497 0.375 0.596503 0.625 0.525958 0.375 0.525958 0.875 0.2240419 0.625 0.153497 0.625 0.202335 0.375 0.153497 0.625 0.202335 0.625 0.153497 0.125 0.05487298 0.375 0.153497 0.375 0.067294 0.375 0.695127 0.625 0.596503 0.375 0.596503 0.625 0.153497 0.875 0.05487298 0.625 0.067294 0.375 0.153497 0.625 0.067294 0.375 0.067294 0.375 0.202335 0.125 0.25 0.375 0.25 0.375 0.525958 0.625 0.5 0.375 0.5 0.875 0.25 0.625 0.202335 0.625 0.25 0.375 0.25 0.625 0.202335 0.375 0.202335 0.375 0.067294 0.625 0.067294 0.625 0 0.625 0.5 0.625 0.25 0.375 0.25 0.375 0.75 0.625 0.75 0.625 0.695127 0.625 0.75 0.375 0.75 0.375 1 0.625 0.067294 0.875 0.05487298 0.875 0 0.125 0 0.125 0.05487298 0.375 0.067294 0.125 0.153497 0.125 0.2240419 0.375 0.202335 0.375 0.596503 0.625 0.596503 0.625 0.525958 0.875 0.2240419 0.875 0.153497 0.625 0.153497 0.375 0.153497 0.375 0.202335 0.625 0.202335 0.125 0.05487298 0.125 0.153497 0.375 0.153497 0.375 0.695127 0.625 0.695127 0.625 0.596503 0.625 0.153497 0.875 0.153497 0.875 0.05487298 0.375 0.153497 0.625 0.153497 0.625 0.067294 0.375 0.202335 0.125 0.2240419 0.125 0.25 0.375 0.525958 0.625 0.525958 0.625 0.5 0.875 0.25 0.875 0.2240419 0.625 0.202335 0.375 0.25 0.625 0.25 0.625 0.202335</float_array>
+          <technique_common>
+            <accessor source="#trackBase_L_geo-mesh-map-0-array" count="108" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="trackBase_L_geo-mesh-vertices">
+          <input semantic="POSITION" source="#trackBase_L_geo-mesh-positions"/>
+        </vertices>
+        <triangles material="blinn4SG-material" count="36">
+          <input semantic="VERTEX" source="#trackBase_L_geo-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#trackBase_L_geo-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#trackBase_L_geo-mesh-map-0" offset="2" set="0"/>
+          <p>1 0 0 3 1 1 0 2 2 5 3 3 7 3 4 4 3 5 9 4 6 11 5 7 8 6 8 10 7 9 0 7 10 3 7 11 2 8 12 10 9 13 3 10 14 9 11 15 1 12 16 0 13 17 13 14 18 15 15 19 12 16 20 13 17 21 17 18 22 14 19 23 17 20 24 19 21 25 18 22 26 12 23 27 18 24 28 19 25 29 8 26 30 12 16 31 1 12 32 8 6 33 16 27 34 13 17 35 19 21 36 11 28 37 2 8 38 12 23 39 2 29 40 1 0 41 15 15 42 4 30 43 7 31 44 14 19 45 5 32 46 4 33 47 5 34 48 18 22 49 6 35 50 7 36 51 18 24 52 15 37 53 1 0 54 2 29 55 3 1 56 5 38 57 6 38 58 7 38 59 9 4 60 10 39 61 11 5 62 10 7 63 9 7 64 0 7 65 2 8 66 11 28 67 10 9 68 9 11 69 8 26 70 1 12 71 13 14 72 14 40 73 15 15 74 13 17 75 16 27 76 17 18 77 17 20 78 16 41 79 19 21 80 12 23 81 15 37 82 18 24 83 8 26 84 13 14 85 12 16 86 8 6 87 11 5 88 16 27 89 19 21 90 16 41 91 11 28 92 12 23 93 19 25 94 2 29 95 15 15 96 14 40 97 4 30 98 14 19 99 17 18 100 5 32 101 5 34 102 17 20 103 18 22 104 7 36 105 6 42 106 18 24 107</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="trackBase_L_geo" name="trackBase_L_geo" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#trackBase_L_geo-mesh" name="trackBase_L_geo">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="blinn4SG-material" target="#blinn4SG-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

@@ -73,3 +73,7 @@ Using the application:
     e.g: * draw & drive
          * more dynamics and robust path following algorithm based on forward kinematics. 
     Note: code for robot lift control & image streaming already 
+
+## Build Trouble-Shooting
+
+1. When building for Windows Universal Platform, the original TCP-Connection package does not directly support it. Follow [this github issue](https://github.com/Unity-Technologies/Unity-Robotics-Hub/issues/215) to enable build for the Windows universal platform. 

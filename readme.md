@@ -4,18 +4,51 @@ This project explore to operate the [Anki Cozmo](https://www.digitaldreamlabs.co
 
 This document demonstrates some examples and record the future development steps. 
 
-[! Please note that this repository is under continuous development and improvement. Only the functionalities in the ```CozmoMRTest``` scene is working. But please feel free to explore other work in progress code base as well!]
+[! Please note that this repository is under continuous development and improvement. Only the functionalities in the ```MainDemoScene``` scene is working. But please feel free to explore other work in progress code base as well!]
 
 ## Table of Contents
 ------------------
-[Application Demos](#Demos)   
- 
+[Mixed Reality (Hololens2) Demos](#Hololens2)   
+
+[Virtual Reality (Oculus Quest 2 + Passthrough API) Demos](#Quest2)
+
+
 [System architecture](#Architecture)
 
 
-## Demos  <a name="Demos"></a>
+## Mixed Reality Hololens 2 Demos  <a name="Hololens2"></a>
 --------------------
 
+### New Hololens2 UI layout:
+--------------
+<img src="./images/hololens2_UI_layout.PNG"
+     alt="hololens2 UI"
+     style="float: center; margin-right: 10px; height:300px" />
+
+### Live control of Cozmo Head via Hololens 2 by tracking Index finger tip and index finger knuckle :
+
+--------------
+<img src="./images/01_mr_cozomo_hololens2_new_hand_head_control.gif"
+     alt="cozmo lift"
+     style="float: center; margin-right: 10px; height:300px" />
+
+
+### Live control of Cozmo Lift via Hololens 2 by tracking Index finger tip and tip of the thumb:
+
+--------------
+<img src="./images/01_mr_cozomo_hololens2_new_hand_lift_control.gif"
+     alt="cozmo lift"
+     style="float: center; margin-right: 10px; height:300px" />
+
+
+### ROS IP with Mixed Reality Keyboard Input:
+--------------
+<img src="./images/01_hololens2_ROS_IP_keyboard_input.gif"
+     alt="hololens2 UI"
+     style="float: center; margin-right: 10px; height:300px" />
+
+
+## Virtual Reality (Oculus Quest 2 + Passthrough API) Demos  <a name="Quest2"></a>
 
 ### Raycast way point selection and path following  
 -------------
@@ -49,12 +82,6 @@ This document demonstrates some examples and record the future development steps
      style="float: center; margin-right: 10px; height:250px" />
 
 
-### Demo of live control of Cozmo via Hololens 2:
---------------
-<img src="./images/01_cozmoLiftHololensHandConrtollerTest.gif"
-     alt="cozmo lift"
-     style="float: center; margin-right: 10px; height:300px" />
-
 
 ### Lift Control with VR controller 
 ----------------
@@ -74,9 +101,6 @@ This document demonstrates some examples and record the future development steps
      alt="cozmo lift"
      style="float: center; margin-right: 10px; height:260px" />
 
-
-
-
 ## System Architecture <a name="Architecture"></a>
 -------------------
 The robot model was imported to Unity using [URDF Importer](https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/main/tutorials/urdf_importer/urdf_tutorial.md)
@@ -94,4 +118,16 @@ The communcication between ROS and HMD is built on top of the [Unity ROS TCP Con
      style="float: center; margin-right: 10px; height:300px" />
 
 ----
-Learn more about this project from our paper at the 5th International Workshop on Virtual, Augmented, and Mixed Reality for HRI ( [VAM-HRI 2022](https://vam-hri.github.io/)): https://openreview.net/pdf?id=HYIes841hJc
+
+
+Learn more about this project from our contribution at the 5th International Workshop on Virtual, Augmented, and Mixed Reality for HRI ( [VAM-HRI 2022](https://vam-hri.github.io/)): https://openreview.net/pdf?id=HYIes841hJc
+
+If you find this repository useful for your research and work, please cite this work: 
+
+```bibtex
+@inproceedings{Li2022TowardsRE,
+  title={Towards Robust Exocentric Mobile Robot Tele-Operation in Mixed Reality},
+  author={Ke Li and Reinhard Bacher and Wim P. Leemans and Frank Steinicke},
+  year={2022}
+}
+```
